@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dwquery>
+  <queryparams matchcase="false" ignorewhitespace="false" useregexp="true" wholeword="false" />
+  <find>
+    <qtext qname="(\d{1}\s*)?(S. )?([a-zA-Z&aacute;&eacute;&iacute;&oacute;&uacute;.]+)\s*\d{1,2}:\d{1,3}-?(\d{1,3})?,?\s*(\d{1,3})?" qraw="true"></qtext>
+  </find>
+  <replace action="replaceText" param1="" param2=""/>
+</dwquery>
